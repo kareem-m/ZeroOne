@@ -1,0 +1,53 @@
+.blog {
+  .container-out {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    .box {
+      cursor: pointer;
+      box-shadow: 2px 2px 20px 2px #a5a5a526;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: #161616;
+      h1, h3 {
+        text-align: center;
+      }
+      .inner-box {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999999;
+        backdrop-filter: blur(3px);
+        cursor: auto;
+        &.show {
+          opacity: 1;
+          visibility: visible;
+        }
+        .content {
+          position: fixed;
+          width: 70%;
+          height: 90%;
+          top: 5%;
+          left: 15%;
+          background-color: var(--main-background-color);
+          background-color: #161616;
+          overflow: auto;
+          border-radius: 20px;
+          padding: 20px 40px;
+          direction: rtl;
+          .close {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            cursor: pointer;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
