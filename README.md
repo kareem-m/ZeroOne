@@ -1,16 +1,16 @@
 <div align="center">
-  <img src="public/images/logo.png" width="100">
+  <img src="img/logo.png" width="100">
 <div>
 <br>
 
 <div align="left">
 
-# Photography Portfolio Website
+# ZeroOne
 
-[Open in Visual Studio Code](https://vscode.dev/github/kareem-m/photography-portfolio)
+[Open in Visual Studio Code](https://vscode.dev/github/kareem-m/ZeroOne)
 
 ## Preview
 
-Preview Website from [Here](https://thepgamr.netlify.app).
+Preview Website from [Here](kareem-m.github.io/ZeroOne).
 
 </div>
